@@ -99,7 +99,7 @@ main {
     padding: 32px;
 }
 .presentacion__imagen {
-    width: 100%;
+    width: 100vw;
     padding: 16px;
     justify-content: center;
     object-fit: cover;
