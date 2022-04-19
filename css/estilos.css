@@ -31,10 +31,6 @@ main {
 .header__logo {
     justify-content: left;
 }
-
-/* .header__bar {
-    display: none;
-} */
 .nav {
     width: 100%;
     
@@ -71,8 +67,7 @@ main {
     font-weight: 700;
     text-decoration-style: wavy;
     justify-content: left;
-    align-items: center;
-  
+    align-items: center;  
 }
 .footer__nav1 {
     width: 10%;
@@ -99,7 +94,10 @@ main {
     padding: 32px;
 }
 .presentacion__imagen {
-    width: 100vw;
+    padding: 16px;
+}
+.presentacion__foto {
+    width: 100%;
     padding: 16px;
     justify-content: center;
     object-fit: cover;
@@ -124,7 +122,6 @@ main {
     text-align: center;border-radius: 20px;
     margin-top: 32px;
     margin-bottom: 32px;
-    
 }
 .index__titulo {
     color: #8f427a;
@@ -141,6 +138,9 @@ main {
 }
 
 .index__imagen {
+    padding: 16px;
+}
+.index__foto {
     width: 100%;
     padding: 16px;
     justify-content: center;
