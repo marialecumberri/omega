@@ -1,0 +1,13 @@
+Repositorio local
+git init
+git add
+git commit -m "..."
+git status
+git log
+git branch
+
+Repositorio remoto
+git remote add "..." poner el repo remoto
+git push
+git fetch
+git pull
