@@ -149,7 +149,7 @@ main {
     }
     to {
         opacity: 0.5;
-        transform: translate(5px);
+        transform: translate(2px);
     }
 }
 
