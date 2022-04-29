@@ -103,6 +103,12 @@ main {
     object-fit: cover;
     align-items: stretch;
 }
+.presentacion__foto {
+    transition: transform 0.3s ease;
+}
+.presentacion__foto:hover {
+    filter: blur(2px);
+}
 .presentacion__titulo {
     font-size: 40px;
     line-height: 2;
@@ -162,6 +168,8 @@ main {
     justify-content: center;
     object-fit: cover;
     align-items: stretch;
+    filter: blur(1px);
+    
 }
 .index__parrafo {
     font-size: 17px;
