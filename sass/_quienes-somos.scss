@@ -1,0 +1,38 @@
+.presentacion {
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 32px;
+    .presentacion__imagen {
+        padding: 16px;
+    }
+    .presentacion__foto {
+        width: 100%;
+        padding: 16px;
+        justify-content: center;
+        object-fit: cover;
+        align-items: stretch;
+    }
+    .presentacion__foto {
+        transition: transform 0.3s ease;
+    }
+    .presentacion__foto:hover {
+        filter: blur(2px);
+    }
+    .presentacion__titulo {
+        font-size: 40px;
+        line-height: 2;
+        color:#8f427a;
+        font-weight: 700;
+        text-decoration: solid;
+    }
+    .presentacion__parrafo1  {
+        padding: 2rem 1rem;
+    }
+    .presentacion__parrafo2 {
+        padding: 1rem;
+    }
+}
+
+
