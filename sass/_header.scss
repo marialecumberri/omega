@@ -9,16 +9,16 @@
     justify-content: space-between;
     align-items: center;
     background-color: #f0e8ec;
-    .header__omega {
+    &__omega {
         font-weight: bold;
         color: #ebc5da;  
     }
-    .header__logo {
+    &__logo {
         justify-content: left;
     }
     .nav {
         width: 100%;
-        .nav__lista {
+        &__lista {
             width: 100%;
             list-style: none;
             list-style-type: none;
@@ -29,12 +29,12 @@
             align-items: center;
             gap: 1rem;
         }
-        .nav__enlace {
+        &__enlace {
             color: #781A8B;
             text-decoration: none;
             text-transform: initial;
         }
-        .nav__item--oculto {
+        &__item--oculto {
             display: none;
         }
     }
@@ -47,13 +47,13 @@
     flex-flow: column;
     justify-content:space-evenly; 
     align-items: left; 
-    .footer__copy {
+    &__copy {
         font-weight: 700;
         text-decoration-style: wavy;
         justify-content: left;
         align-items: center;  
     }
-    .footer__nav1 {
+    &__nav1 {
         width: 10%;
         height: 100%;
         align-items: center;
@@ -61,7 +61,7 @@
         justify-content: right;
         flex-flow: row;
     }
-    .footer__nav2 {
+    &__nav2 {
         width: 10%;
         height: 100%;
         align-items: center;
