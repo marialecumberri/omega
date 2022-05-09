@@ -30,7 +30,7 @@
             gap: 1rem;
         }
         &__enlace {
-            color: #781A8B;
+            color: $bgColor;
             text-decoration: none;
             text-transform: initial;
         }
@@ -38,7 +38,9 @@
             display: none;
         }
     }
-        
+    .header__icono {
+        display: none;
+    }    
     }
 /* Footer */
 .footer {
@@ -46,7 +48,7 @@
     display: flex;
     flex-flow: column;
     justify-content:space-evenly; 
-    align-items: left; 
+    align-items: center; 
     &__copy {
         font-weight: 700;
         text-decoration-style: wavy;
