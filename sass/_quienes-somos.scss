@@ -4,33 +4,33 @@
     margin-top: 32px;
     margin-bottom: 32px;
     padding: 32px;
-    .presentacion__imagen {
+    &__imagen {
         padding: 16px;
     }
-    .presentacion__foto {
+    &__foto {
         width: 100%;
         padding: 16px;
         justify-content: center;
         object-fit: cover;
         align-items: stretch;
     }
-    .presentacion__foto {
+    &__foto {
         transition: transform 0.3s ease;
     }
-    .presentacion__foto:hover {
+    &__foto:hover {
         filter: blur(2px);
     }
-    .presentacion__titulo {
+    &__titulo {
         font-size: 40px;
         line-height: 2;
         color:#8f427a;
         font-weight: 700;
         text-decoration: solid;
     }
-    .presentacion__parrafo1  {
+    &__parrafo1  {
         padding: 2rem 1rem;
     }
-    .presentacion__parrafo2 {
+    &__parrafo2 {
         padding: 1rem;
     }
 }

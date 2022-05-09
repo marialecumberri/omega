@@ -3,14 +3,14 @@
     text-align: center;border-radius: 20px;
     margin-top: 32px;
     margin-bottom: 32px;
-    .index__titulo {
+    &__titulo {
         color: #8f427a;
         font-size: 40px;
         font-weight: 700;
         text-align: center;
         text-decoration: solid;    
     }
-    .index__subtitulo {
+    &__subtitulo {
         color: #781A8B;
         font-size: 30px;
         font-weight: 500;
@@ -32,10 +32,10 @@
             transform: translate(2px);
         }
     }
-    .index__imagen {
+    &__imagen {
         padding: 16px;
     }
-    .index__foto {
+    &__foto {
         width: 100%;
         padding: 16px;
         justify-content: center;
@@ -44,7 +44,7 @@
         filter: blur(1px);
         
     }
-    .index__parrafo {
+    &__parrafo {
         font-size: 17px;
         padding: 2rem 1rem;     
     }

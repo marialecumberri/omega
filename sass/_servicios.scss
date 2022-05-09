@@ -1,6 +1,6 @@
 .servicios {
     background-color: none;
-    .servicios__titulo {
+    &__titulo {
         font-size: 40px;
         line-height: 2;
         color:#8f427a;
@@ -8,7 +8,7 @@
         text-decoration: solid;
         text-align: center;
     }
-    .servicios__subtitulo {   
+    &__subtitulo {   
         padding: 1rem;
     }
 }

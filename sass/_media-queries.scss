@@ -76,13 +76,13 @@
     "ele1 ele2"
     "ele3 ele3";
     justify-items: center;
-    .footer__nav1 {
+    &__nav1 {
         grid-area: ele1;
     }
-    .footer__nav2 {
+    &__nav2 {
         grid-area: ele2;
     }
-    .footer__copy {
+    &__copy {
         grid-area: ele3;
     }
 }
