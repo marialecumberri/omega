@@ -81,7 +81,24 @@
         justify-content: center;
         flex-flow: row;
     }
+    
 }
+$derechos: (
+    derechos: #1d1d1d,
+    omega: #55acee,
+    2022: #c92d8f,    
+);
+
+@each $name, $color in $derechos {
+    .#{$name} {
+        background-color: $color;
+        margin: 0 5px;
+        padding: 10px;
+        color: #fff;
+        border-radius: 20px;
+    }
+}
+
 
 
 
