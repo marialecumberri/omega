@@ -40,6 +40,16 @@
     }
     .header__icono {
         display: none;
+    }
+    @keyframes efecto {
+        from {
+            opacity: 1;
+            
+        }
+        to {
+            opacity: 0.5;
+            transform: translate(2px);
+        }
     }    
     }
 /* Footer */
@@ -52,7 +62,7 @@
     &__copy {
         font-weight: 700;
         text-decoration-style: wavy;
-        justify-content: left;
+        justify-content: center;
         align-items: center;  
     }
     &__nav1 {
@@ -60,7 +70,7 @@
         height: 100%;
         align-items: center;
         object-fit: contain;
-        justify-content: right;
+        justify-content: center;
         flex-flow: row;
     }
     &__nav2 {
@@ -68,7 +78,7 @@
         height: 100%;
         align-items: center;
         object-fit: contain;
-        justify-content: right;
+        justify-content: center;
         flex-flow: row;
     }
 }
