@@ -1,0 +1,39 @@
+.titleTemplate {
+    text-transform: uppercase;
+    color: $colorPrimary;
+    margin: 30px 0;
+    font-size: $fontLarge;
+    text-align: center;
+}
+
+@mixin cardContainer($justifyContent, $shadow) {
+    border-radius: 20px;
+    background-color: blue;
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: center;
+    padding: 30px 20px;
+        
+    @if ($shadow == "yes") {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);    
+    }
+}
+
+@each $heading in (h3, h4) {
+    #{$heading} {
+        text-transform: uppercase;
+    }    
+}
+
+@each $links in (a) {
+    #{$links} {
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+
+    }
+} 

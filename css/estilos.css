@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -103,6 +102,12 @@ main {
     object-fit: cover;
     align-items: stretch;
 }
+.presentacion__foto {
+    transition: transform 0.3s ease;
+}
+.presentacion__foto:hover {
+    filter: blur(2px);
+}
 .presentacion__titulo {
     font-size: 40px;
     line-height: 2;
@@ -149,7 +154,7 @@ main {
     }
     to {
         opacity: 0.5;
-        transform: translate(5px);
+        transform: translate(2px);
     }
 }
 
@@ -162,6 +167,8 @@ main {
     justify-content: center;
     object-fit: cover;
     align-items: stretch;
+    filter: blur(1px);
+    
 }
 .index__parrafo {
     font-size: 17px;
@@ -191,6 +198,9 @@ main {
 .faq {
     padding: 16px;
 }
+
+
+
 /* Contacto */
 .form {
     padding: 16px;
@@ -199,6 +209,7 @@ main {
 .mapa {
     padding: 16px;
 }
+
 .h1 {
     color: #8f427a;
     text-decoration: none;
@@ -357,3 +368,5 @@ ul {
         margin: 10px;
    } */
 }
+
+

@@ -1,0 +1,51 @@
+.index {
+    background-color: none;
+    text-align: center;border-radius: 20px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    &__titulo {
+        color: #8f427a;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: solid;    
+    }
+    &__subtitulo {
+        color: #781A8B;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+         animation-name: efecto;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+    @keyframes efecto {
+        from {
+            opacity: 1;
+            
+        }
+        to {
+            opacity: 0.5;
+            transform: translate(2px);
+        }
+    }
+    &__imagen {
+        padding: 16px;
+    }
+    &__foto {
+        width: 100%;
+        padding: 16px;
+        justify-content: center;
+        object-fit: cover;
+        align-items: stretch;
+        filter: blur(1px);
+        
+    }
+    &__parrafo {
+        font-size: 17px;
+        padding: 2rem 1rem;     
+    }
+}

@@ -1,0 +1,11 @@
+.form {
+    margin-top: 100px;
+    padding: 16px;
+
+}
+.contacto {
+    @include cardContainer (space-around, "yes");
+    }
+.mapa {
+    padding: 16px;
+}

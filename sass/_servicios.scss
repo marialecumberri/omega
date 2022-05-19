@@ -1,0 +1,14 @@
+.servicios {
+    &__titulo {
+        font-size: 40px;
+        line-height: 2;
+        color:#8f427a;
+        font-weight: 700;
+        text-decoration: solid;
+        text-align: center;
+    }
+    &__subtitulo { 
+        @extend .titleTemplate;   
+        padding: 1rem;
+    }
+}

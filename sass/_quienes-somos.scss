@@ -1,0 +1,45 @@
+.presentacion {
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 32px;
+    margin-bottom: 100px;
+    padding: 32px;
+    &__imagen {
+        padding: 16px;
+    }
+    &__foto {
+        width: 100%;
+        padding: 16px;
+        justify-content: center;
+        object-fit: cover;
+        align-items: stretch;
+        margin: 100px;
+    }
+    &__foto {
+        transition: transform 0.3s ease;
+    }
+    &__foto:hover {
+        filter: blur(2px);
+    }
+    &__titulo {
+        font-size: 40px;
+        line-height: 2;
+        color:#8f427a;
+        font-weight: 700;
+        text-decoration: solid;
+    }
+    &__parrafo1  {
+        padding: 2rem 1rem;
+    }
+    &__parrafo2 {
+        padding: 1rem;
+    }
+}
+.container {
+    align-items: center;
+    &__col-6 {
+        align-items: center;
+    }
+}
+
+
