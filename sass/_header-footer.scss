@@ -54,13 +54,14 @@
     }
 /* Footer */
 .footer {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     display: flex;
     flex-flow: column;
     justify-content:space-evenly; 
     align-items: center; 
     color: #ebc5da;
     &__copy {
+        margin-top: 15px;
         font-weight: 700;
         text-decoration-style: wavy;
         justify-content: center;
@@ -75,6 +76,7 @@
         flex-flow: row;
     }
     &__nav2 {
+        margin-top: 10px;
         width: 10%;
         height: 100%;
         align-items: center;

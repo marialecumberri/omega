@@ -133,13 +133,14 @@ a {
 
 /* Footer */
 .footer {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
   align-items: center;
   color: #ebc5da; }
   .footer__copy {
+    margin-top: 15px;
     font-weight: 700;
     text-decoration-style: wavy;
     justify-content: center;
@@ -152,6 +153,7 @@ a {
     justify-content: center;
     flex-flow: row; }
   .footer__nav2 {
+    margin-top: 10px;
     width: 10%;
     height: 100%;
     align-items: center;
@@ -256,25 +258,17 @@ ul {
   to {
     opacity: 0.5;
     transform: translate(2px); } }
-  .index__imagen {
-    padding: 16px; }
-  .index__foto {
-    width: 100%;
-    padding: 16px;
-    justify-content: center;
-    object-fit: cover;
-    align-items: stretch;
-    filter: blur(1px); }
-  .index__parrafo {
-    font-size: 17px;
-    padding: 2rem 1rem; }
 
 .form {
-  margin-top: 100px;
+  margin-top: 200px;
   padding: 16px; }
 
 .mapa {
   padding: 16px; }
+
+.container {
+  align-items: center;
+  margin-top: 50px; }
 
 .faq {
   padding: 16px; }
@@ -307,11 +301,6 @@ ul {
     padding: 2rem 1rem; }
   .presentacion__parrafo2 {
     padding: 1rem; }
-
-.container {
-  align-items: center; }
-  .container__col-6 {
-    align-items: center; }
 
 .servicios__titulo {
   font-size: 40px;
