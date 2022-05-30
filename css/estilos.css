@@ -10,7 +10,7 @@ body {
 }
 main {
     min-height: 100vh;
-    margin: 25px;
+    margin: 40 30 30 25px;
 }
 /* Header */
 .header {
