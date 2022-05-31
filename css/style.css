@@ -33,7 +33,7 @@ a {
       text-decoration: none;
       color: #781A8B; }
     .header .header__icono {
-      display: inline-block;
+      display: block;
       font-size: 32px;
       color: pink; }
     .header .header__logo {
@@ -121,8 +121,6 @@ a {
       text-transform: initial; }
     .header .nav__item--oculto {
       display: none; }
-  .header .header__icono {
-    display: none; }
 
 @keyframes efecto {
   from {
@@ -209,7 +207,7 @@ ul {
   list-style: none;
   list-style-position: inside;
   list-style-type: circle;
-  font-size: 28.5px;
+  font-size: 20px;
   padding: 16px; }
 
 .caja {
