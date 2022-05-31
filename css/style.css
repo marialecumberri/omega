@@ -72,7 +72,7 @@ a {
     .index .index__left, .index .index__right {
       width: 100%; }
     .index .index__imagen {
-      width: 100px; }
+      width: 100%; }
   .footer {
     display: grid;
     /* background-color: #f8eff5; */
@@ -232,7 +232,17 @@ ul {
   text-align: center;
   border-radius: 20px;
   margin-top: 32px;
-  margin-bottom: 32px; }
+  margin-bottom: 10px;
+  padding: 20px; }
+  .index_imagen {
+    padding: 16px; }
+  .index__foto {
+    width: 100%;
+    padding: 16px;
+    justify-content: center;
+    object-fit: cover;
+    align-items: stretch;
+    filter: blur(1px); }
   .index__titulo {
     color: #8f427a;
     font-size: 40px;
