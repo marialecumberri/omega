@@ -286,8 +286,6 @@ ul {
   padding: 16px; }
 
 .presentacion__div {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap; }
