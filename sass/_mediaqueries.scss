@@ -10,7 +10,7 @@
         color: #781A8B;
     }
     .header__icono {
-        display: inline-block;
+        display: block;
         font-size: 32px;
         color: pink;
      }
@@ -63,7 +63,7 @@
         width: 100%;
     } 
     .index__imagen {
-        width: 100px;       
+        width: 100%;       
     }
 }
 
@@ -86,5 +86,12 @@
         grid-area: ele3;
     }
 }
-
+.presentacion__photo {
+    width: 100%
 }
+.presentacion__parrafo {
+    width: 100%;
+}
+}
+
+
