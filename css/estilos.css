@@ -103,12 +103,12 @@ main {
     object-fit: cover;
     align-items: stretch;
 }
-.presentacion__foto {
+/* .presentacion__foto {
     transition: transform 0.3s ease;
 }
 .presentacion__foto:hover {
     filter: blur(2px);
-}
+} */
 .presentacion__titulo {
     font-size: 40px;
     line-height: 2;
